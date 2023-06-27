@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Imagen renderizada</title>
+</head>
+<body>
+  <h1>Imagen renderizada</h1>
+  <div id="image-box">
+    <img src="data:image/jpeg;base64,{{ image_data }}" alt="Imagen renderizada">
+  </div>
+  <a href="{{ url_for('index') }}">Regresar a la página principal</a>
+</body>
+</html>
